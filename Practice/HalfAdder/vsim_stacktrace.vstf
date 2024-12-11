@@ -1,0 +1,14 @@
+# Current time Wed Dec 11 15:29:10 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+# Signature = 4a3706afe29a2b87def93ebd4f2693fa
+# 0    0x00ae603c: '<unknown (@0xae603c)>'
+# 1    0x00ae98dc: '<unknown (@0xae98dc)>'
+# 2    0x00ae9e99: '<unknown (@0xae9e99)>'
+# End of Stack Trace
+
+
