@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice/RippleCarryAdder
+vfull_adder
+Z1 !s110 1733909771
+!i10b 1
+!s100 EN5IV9REJhLD9FgAhaAh<1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IIh9ga1ST<AnLm5R0Qk?G91
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1733909651
+Z5 8ripple_carry_adder.v
+Z6 Fripple_carry_adder.v
+!i122 4
+L0 20 7
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1733909771.000000
+Z9 !s107 ripple_carry_adder.v|
+Z10 !s90 -reportprogress|300|ripple_carry_adder.v|
+!i113 1
+Z11 tCvgOpt 0
+vripple_carry_adder
+R1
+!i10b 1
+!s100 bOAzP9TIZ6h=?;`B;19Lz1
+R2
+IDPVe8zn>d08JB[0L2cOJ=3
+R3
+R0
+R4
+R5
+R6
+!i122 4
+Z12 L0 1 17
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vripple_carry_adder_nbit
+!s110 1733908108
+!i10b 1
+!s100 VmF^ljgdNo5V3P67XP2Z41
+R2
+I@B71<OEN`6R]kNbJ6C;Hl2
+R3
+R0
+w1733908106
+R5
+R6
+!i122 0
+R12
+R7
+r1
+!s85 0
+31
+!s108 1733908108.000000
+R9
+R10
+!i113 1
+R11
+vtb_ripple_carry_adder
+!s110 1733910230
+!i10b 1
+!s100 gj<QYFicbZnU?N3>[?6_S3
+R2
+IX2d5[`8P<k@1KJGVT]2ol1
+R3
+R0
+w1733910221
+8tb_ripple_carry_adder.v
+Ftb_ripple_carry_adder.v
+!i122 5
+L0 2 37
+R7
+r1
+!s85 0
+31
+!s108 1733910230.000000
+!s107 tb_ripple_carry_adder.v|
+!s90 -reportprogress|300|tb_ripple_carry_adder.v|
+!i113 1
+R11
