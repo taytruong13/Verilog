@@ -13,6 +13,9 @@ module binary_to_gray #(parameter SIZE = 4)(
 	endgenerate
 endmodule 
 ```
+# Binary to Gray code Converter
+![This is an alt text.](https://i.imgur.com/OBhTTfW.png "Binary to Gray code converter")
+
 
 # Testbench Binary to Gray Code converter D_SIZE = 8
 ```
