@@ -26,14 +26,14 @@ Tôi thường sử dụng công cụ [Lightshot](https://app.prntscr.com/en/ind
 ![This is an alt text.](https://i.imgur.com/A4pZbkh.png "This is a sample image.")
 
 
+```
+Ok Gud chop!
+I get it!
+```
 
-
-
-
-
-
-
-
+```
+Let's see what's next i can do!
+```
 
 
 
