@@ -21,8 +21,9 @@ Bạn chỉ cần bỏ ra khoảng 2 giờ là có thể sử dụng ngôn ngữ
 ```
 Tôi thường sử dụng công cụ [Lightshot](https://app.prntscr.com/en/index.html) để chụp ảnh màn hình và up hình đó lên trang http://i.imgur.com/ để lấy đường dẫn ảnh đưa vào 'Github'
 <img src="https://imgur.com/a/l1t27AX.png">
+<img src="https://i.imgur.com/A4pZbkh.png">
 
-![This is an alt text.](https://imgur.com/a/l1t27AX.png "This is a sample image.")
+![This is an alt text.](https://i.imgur.com/A4pZbkh.png "This is a sample image.")
 
 
 
