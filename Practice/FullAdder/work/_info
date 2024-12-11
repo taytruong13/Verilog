@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice/FullAdder
+vFull_Adder
+!s110 1733903322
+!i10b 1
+!s100 IaHI]]cN=cW`alVhG^g>g2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IdLY:BzPK::<]c=di1U^2W0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1733903319
+8Full_Adder.v
+FFull_Adder.v
+!i122 0
+L0 1 6
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1733903322.000000
+!s107 Full_Adder.v|
+!s90 -reportprogress|300|Full_Adder.v|
+!i113 1
+Z4 tCvgOpt 0
+n@full_@adder
+vtb_Full_Adder
+!s110 1733904040
+!i10b 1
+!s100 nGNJY^Z=JR;1FN]M8aN1_1
+R1
+Iih5ZMIm[]k@V2ABc83fGR0
+R2
+R0
+w1733904031
+8tb_Full_Adder.v
+Ftb_Full_Adder.v
+!i122 3
+L0 2 19
+R3
+r1
+!s85 0
+31
+!s108 1733904040.000000
+!s107 tb_Full_Adder.v|
+!s90 -reportprogress|300|tb_Full_Adder.v|
+!i113 1
+R4
+ntb_@full_@adder

@@ -1,0 +1,10 @@
+module Full_Adder(
+	input A, B, Cin, 
+	ouput Sum, Carry
+	);
+	assign {Sum, Carry} = {A^B^Cin, (A&B)|(A&Cin)|(B&Cin)};
+endmodule 
+
+
+
+	
