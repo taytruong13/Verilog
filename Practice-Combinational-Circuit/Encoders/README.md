@@ -1,6 +1,5 @@
-### Mục lục
+### Contents
 - [4 to 2 encoder](#4to2encoder)
-
 - [8 to 3 encoder](#encoder_8to3)
 
 
