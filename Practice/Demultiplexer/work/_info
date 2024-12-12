@@ -1,0 +1,143 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice/Demultiplexer
+vdemux_1x2
+!s110 1733969910
+!i10b 1
+!s100 QD5`AGEAK6^8a;4_;dQoY1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`z7`Fk_OnTfD5bcbQ?d9N3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1733969905
+8demux_1x2.v
+Fdemux_1x2.v
+!i122 0
+L0 2 11
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1733969910.000000
+!s107 demux_1x2.v|
+!s90 -reportprogress|300|demux_1x2.v|
+!i113 1
+Z4 tCvgOpt 0
+vdemux_1x4
+!s110 1733971870
+!i10b 1
+!s100 f<mz1=izZL<e6_iEA=k9o2
+R1
+IzK1Q;?Unn2=m4Hf_UShei2
+R2
+R0
+w1733971862
+8demux_1x4.v
+Fdemux_1x4.v
+!i122 3
+L0 2 10
+R3
+r1
+!s85 0
+31
+!s108 1733971869.000000
+!s107 demux_1x4.v|
+!s90 -reportprogress|300|demux_1x4.v|
+!i113 1
+R4
+vdemux_1x8
+!s110 1733977559
+!i10b 1
+!s100 _czddmoNjO]GI^BHl2dFL2
+R1
+IJQ[9>36cF^Kc3QX5T1l=@3
+R2
+R0
+w1733977528
+8demux_1x8.v
+Fdemux_1x8.v
+!i122 8
+L0 3 12
+R3
+r1
+!s85 0
+31
+!s108 1733977559.000000
+!s107 demux_1x8.v|
+!s90 -reportprogress|300|demux_1x8.v|
+!i113 1
+R4
+vtb_demux_1x2
+!s110 1733970436
+!i10b 1
+!s100 0_=23imGL<09Om98A2YTk2
+R1
+I<?3z9Clz<d?TQSPmehMeE3
+R2
+R0
+w1733970427
+8tb_demux_1x2.v
+Ftb_demux_1x2.v
+!i122 2
+L0 2 21
+R3
+r1
+!s85 0
+31
+!s108 1733970436.000000
+!s107 tb_demux_1x2.v|
+!s90 -reportprogress|300|tb_demux_1x2.v|
+!i113 1
+R4
+vtb_demux_1x4
+!s110 1733973259
+!i10b 1
+!s100 Cm5Fn^?X=2ff?Ol``a45Z1
+R1
+IkQWPT2D1KQiHJJabfjUVO2
+R2
+R0
+w1733973247
+8tb_demux_1x4.v
+Ftb_demux_1x4.v
+!i122 5
+L0 2 25
+R3
+r1
+!s85 0
+31
+!s108 1733973259.000000
+!s107 tb_demux_1x4.v|
+!s90 -reportprogress|300|tb_demux_1x4.v|
+!i113 1
+R4
+vtb_demux_1x8
+!s110 1733977671
+!i10b 1
+!s100 7k8l?Hf:TzA]4DjMV6ibQ1
+R1
+I3YLDUY>8T`9RV1AR@mN;J1
+R2
+R0
+w1733977665
+8tb_demux_1x8.v
+Ftb_demux_1x8.v
+!i122 10
+L0 3 26
+R3
+r1
+!s85 0
+31
+!s108 1733977671.000000
+!s107 tb_demux_1x8.v|
+!s90 -reportprogress|300|tb_demux_1x8.v|
+!i113 1
+R4

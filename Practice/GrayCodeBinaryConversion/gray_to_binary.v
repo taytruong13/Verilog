@@ -1,4 +1,4 @@
-module gray_to_binary #(parameter SIZE) (
+module gray_to_binary #(parameter SIZE=4) (
 	input [SIZE-1:0] gray,
 	output [SIZE-1:0] bin
 	);
