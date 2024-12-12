@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice/Encoders
+vencoder_4to2
+!s110 1733982199
+!i10b 1
+!s100 URl5d4nDFi?OMOAX^BXCT2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+If1V:>]ZbZZ02kQb`AEY:80
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1733981459
+8encoder_4to2.v
+Fencoder_4to2.v
+!i122 0
+L0 1 15
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1733982199.000000
+!s107 encoder_4to2.v|
+!s90 -reportprogress|300|encoder_4to2.v|
+!i113 1
+Z4 tCvgOpt 0
+vencoder_8to3
+!s110 1733984829
+!i10b 1
+!s100 ]Meln:TBiAzEO]iJ<YYE=2
+R1
+I`F9g0V6HOSoi1=lf^d0jA1
+R2
+R0
+w1733983930
+8encoder_8to3.v
+Fencoder_8to3.v
+!i122 2
+L0 1 18
+R3
+r1
+!s85 0
+31
+!s108 1733984829.000000
+!s107 encoder_8to3.v|
+!s90 -reportprogress|300|encoder_8to3.v|
+!i113 1
+R4
+vtb_encoder_4to2
+!s110 1733982202
+!i10b 1
+!s100 h1M?dXjQB;9fnoTWi?3Ga1
+R1
+IZ8e7[nL?GmAPDV[L^D91e2
+R2
+R0
+w1733982180
+8tb_encoder_4to2.v
+Ftb_encoder_4to2.v
+!i122 1
+L0 2 22
+R3
+r1
+!s85 0
+31
+!s108 1733982202.000000
+!s107 tb_encoder_4to2.v|
+!s90 -reportprogress|300|tb_encoder_4to2.v|
+!i113 1
+R4
+vtb_encoder_8to3
+!s110 1733984838
+!i10b 1
+!s100 D4k]BKoQL8b<g@kUVZEAO3
+R1
+Ij2NO_SkG6U;hUTj2jZ]en3
+R2
+R0
+w1733984818
+8tb_encoder_8to3.v
+Ftb_encoder_8to3.v
+!i122 3
+L0 2 24
+R3
+r1
+!s85 0
+31
+!s108 1733984838.000000
+!s107 tb_encoder_8to3.v|
+!s90 -reportprogress|300|tb_encoder_8to3.v|
+!i113 1
+R4
