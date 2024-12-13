@@ -1,0 +1,147 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice-Sequential-Circuit/Flip-flops
+vD_ff
+!s110 1734082258
+!i10b 1
+!s100 ogVRDbDf7a9ZlWR_8:Izl3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I09iPogSB^R`F:Vh1WH5fo3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734081787
+8D_ff.v
+FD_ff.v
+!i122 8
+L0 1 12
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1734082258.000000
+!s107 D_ff.v|
+!s90 -reportprogress|300|D_ff.v|
+!i113 1
+Z4 tCvgOpt 0
+n@d_ff
+vjk_ff
+!s110 1734080626
+!i10b 1
+!s100 AM^^n@cSFGVT3hO4W0a8>3
+R1
+IETEH63BbJXFMMZPU6kJ@G1
+R2
+R0
+w1734080620
+8jk_ff.v
+Fjk_ff.v
+!i122 5
+L0 1 13
+R3
+r1
+!s85 0
+31
+!s108 1734080626.000000
+!s107 jk_ff.v|
+!s90 -reportprogress|300|jk_ff.v|
+!i113 1
+R4
+vSR_ff_sync_rst
+!s110 1734077580
+!i10b 1
+!s100 agFz8Xm5;VC2ni:ZK2WRE1
+R1
+IB?^oRjG;h95GP?R6BADcn3
+R2
+R0
+w1734077003
+8SR_ff_sync_rst.v
+FSR_ff_sync_rst.v
+!i122 0
+L0 1 15
+R3
+r1
+!s85 0
+31
+!s108 1734077580.000000
+!s107 SR_ff_sync_rst.v|
+!s90 -reportprogress|300|SR_ff_sync_rst.v|
+!i113 1
+R4
+n@s@r_ff_sync_rst
+vtb_D_ff
+!s110 1734082372
+!i10b 1
+!s100 UiQR<59O9FjCV6`WE88GY1
+R1
+IH]2nL_:HF5oaPPaM9SOVh1
+R2
+R0
+w1734082369
+8tb_D_ff.v
+Ftb_D_ff.v
+!i122 9
+Z5 L0 2 19
+R3
+r1
+!s85 0
+31
+!s108 1734082372.000000
+!s107 tb_D_ff.v|
+!s90 -reportprogress|300|tb_D_ff.v|
+!i113 1
+R4
+ntb_@d_ff
+vtb_jk_ff
+!s110 1734080672
+!i10b 1
+!s100 Wh:DieRooOcFXETDNI_SX1
+R1
+IM9?meX@E2:_FWj?7mPYz00
+R2
+R0
+w1734080666
+8tb_jk_ff.v
+Ftb_jk_ff.v
+!i122 7
+R5
+R3
+r1
+!s85 0
+31
+!s108 1734080672.000000
+!s107 tb_jk_ff.v|
+!s90 -reportprogress|300|tb_jk_ff.v|
+!i113 1
+R4
+vtb_SR_ff_sync_rst
+!s110 1734077601
+!i10b 1
+!s100 dJZHzX^bZZG;jFnAbbkUb0
+R1
+I3fZXK2F1>HAU>8I0Mf?[A0
+R2
+R0
+w1734077597
+8tb_SR_ff_sync_rst.v
+Ftb_SR_ff_sync_rst.v
+!i122 1
+L0 2 22
+R3
+r1
+!s85 0
+31
+!s108 1734077601.000000
+!s107 tb_SR_ff_sync_rst.v|
+!s90 -reportprogress|300|tb_SR_ff_sync_rst.v|
+!i113 1
+R4
+ntb_@s@r_ff_sync_rst
