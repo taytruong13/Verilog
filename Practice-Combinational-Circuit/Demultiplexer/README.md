@@ -1,9 +1,7 @@
-### Mục lục
-[1x2 Demux](#Demux_1x2)
-
-[1x4 Demux](#Demux_1x4)
-
-[1x8 Demux with generate](#Demux_1x8_generate)
+### Content
+- [1x2 Demux](#Demux_1x2)
+- [1x4 Demux](#Demux_1x4)
+- [1x8 Demux with generate](#Demux_1x8_generate)
 
 =======================================
 

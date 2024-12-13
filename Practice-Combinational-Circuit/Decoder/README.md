@@ -1,4 +1,4 @@
-### Mục lục
+### Contents
 - [4 to 2 decoder](#decoder2to4)
 - [8 to 3 decoder](#decoder3to8)
 - [4 to 16 Decoder and free SIZE](#decoder4to16)
