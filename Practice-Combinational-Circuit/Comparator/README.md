@@ -1,4 +1,6 @@
 # 4 Bit Comparator
+In Comparator we should use Subtractor to calculate the difference between A and B, then use the MSB to determine the greater or lesser between A and B, and if A = B, the diff's bits will be all '0,
+
 ## The module
 ```
 module comparator_4bit(
