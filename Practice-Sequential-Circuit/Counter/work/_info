@@ -9,20 +9,64 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/Github/Verilog/verilog/Practice-Sequential-Circuit/Counter
+vbin_to_gray
+Z1 !s110 1734189066
+!i10b 1
+!s100 Ib8e;52MT588X:N^S:gYT2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I29Fha]hTeb[Y37TOVgOF>1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1734189049
+Z5 8gray_counter.v
+Z6 Fgray_counter.v
+!i122 12
+L0 13 12
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1734189066.000000
+Z9 !s107 gray_counter.v|
+Z10 !s90 -reportprogress|300|gray_counter.v|
+!i113 1
+Z11 tCvgOpt 0
+vgray_counter
+R1
+!i10b 1
+!s100 ccz24DfVXWIVJ:Nl3?OUe3
+R2
+IX:gJ?I;@`c01MH_iOTiSa0
+R3
+R0
+R4
+R5
+R6
+!i122 12
+L0 1 11
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
 vjohnson_counter
 !s110 1734184774
 !i10b 1
 !s100 V35CkXILlR?aeO0>9IfIO2
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R2
 IKfnC0UP6PIoK2C0[V_VoK1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+R3
 R0
 w1734184772
 8johnson_counter.v
 Fjohnson_counter.v
 !i122 6
 L0 1 15
-Z3 OV;L;2020.1;71
+R7
 r1
 !s85 0
 31
@@ -30,21 +74,21 @@ r1
 !s107 johnson_counter.v|
 !s90 -reportprogress|300|johnson_counter.v|
 !i113 1
-Z4 tCvgOpt 0
+R11
 vring_counter
 !s110 1734171555
 !i10b 1
 !s100 [PY>F18;:EKTHil0cZ0X=2
-R1
-I[f9BoUMZHEKJ]6A[JgF8_2
 R2
+I[f9BoUMZHEKJ]6A[JgF8_2
+R3
 R0
 w1734171505
 8ring_counter.v
 Fring_counter.v
 !i122 5
 L0 1 21
-R3
+R7
 r1
 !s85 0
 31
@@ -52,21 +96,43 @@ r1
 !s107 ring_counter.v|
 !s90 -reportprogress|300|ring_counter.v|
 !i113 1
-R4
+R11
+vtb_gray_counter
+!s110 1734189189
+!i10b 1
+!s100 [LlYefd><;NiKZao6>GGm0
+R2
+ITB63>m^bcKdF7G0I95zO20
+R3
+R0
+w1734189175
+8tb_gray_counter.v
+Ftb_gray_counter.v
+!i122 13
+L0 4 17
+R7
+r1
+!s85 0
+31
+!s108 1734189189.000000
+!s107 tb_gray_counter.v|
+!s90 -reportprogress|300|tb_gray_counter.v|
+!i113 1
+R11
 vtb_johnson_counter
 !s110 1734185109
 !i10b 1
 !s100 gaLFQeRdP<CD9Ed0WE[770
-R1
-I=^6ZL2BS1dg1C34dIZ_zY0
 R2
+I=^6ZL2BS1dg1C34dIZ_zY0
+R3
 R0
 w1734185101
 8tb_johnson_counter.v
 Ftb_johnson_counter.v
 !i122 9
-Z5 L0 3 19
-R3
+Z12 L0 3 19
+R7
 r1
 !s85 0
 31
@@ -74,21 +140,21 @@ r1
 !s107 tb_johnson_counter.v|
 !s90 -reportprogress|300|tb_johnson_counter.v|
 !i113 1
-R4
+R11
 vtb_ring_counter
 !s110 1734171551
 !i10b 1
 !s100 MZF]PWHlmOHHX>cTm4HG52
-R1
-IcNk]d<DfzX:7fUlO>Kg6L1
 R2
+IcNk]d<DfzX:7fUlO>Kg6L1
+R3
 R0
 w1734171542
 8tb_ring_counter.v
 Ftb_ring_counter.v
 !i122 4
-R5
-R3
+R12
+R7
 r1
 !s85 0
 31
@@ -96,4 +162,4 @@ r1
 !s107 tb_ring_counter.v|
 !s90 -reportprogress|300|tb_ring_counter.v|
 !i113 1
-R4
+R11
