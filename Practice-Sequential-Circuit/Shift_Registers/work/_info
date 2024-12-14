@@ -9,20 +9,42 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/Github/Verilog/verilog/Practice-Sequential-Circuit/Shift_Registers
+vsipo_shift_reg
+!s110 1734151165
+!i10b 1
+!s100 E<c59L^SNA`lMSl9R93h?1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4Zn[RNe8@^V8YCXhcJfjn2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734151151
+8sipo_shift_reg.v
+Fsipo_shift_reg.v
+!i122 3
+L0 4 21
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1734151165.000000
+!s107 sipo_shift_reg.v|
+!s90 -reportprogress|300|sipo_shift_reg.v|
+!i113 1
+Z4 tCvgOpt 0
 vsiso_shift_reg
 !s110 1734099638
 !i10b 1
 !s100 cLVNPFaB`@6N:ZWof?5NC2
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R1
 I89e;LlizoeXmA35FZ0l[g0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+R2
 R0
 w1734099635
 8siso_shift_reg.v
 Fsiso_shift_reg.v
 !i122 0
 L0 2 14
-Z3 OV;L;2020.1;71
+R3
 r1
 !s85 0
 31
@@ -30,7 +52,29 @@ r1
 !s107 siso_shift_reg.v|
 !s90 -reportprogress|300|siso_shift_reg.v|
 !i113 1
-Z4 tCvgOpt 0
+R4
+vtb_sipo_shift_reg
+!s110 1734151080
+!i10b 1
+!s100 P7_DZTB0;3]^[N2<_VB>D2
+R1
+IgmKI5e1IfQLRQ3Bkhj?Y@3
+R2
+R0
+w1734150967
+8tb_sipo_shift_reg.v
+Ftb_sipo_shift_reg.v
+!i122 2
+L0 3 24
+R3
+r1
+!s85 0
+31
+!s108 1734151080.000000
+!s107 tb_sipo_shift_reg.v|
+!s90 -reportprogress|300|tb_sipo_shift_reg.v|
+!i113 1
+R4
 vtb_siso_shift_reg
 !s110 1734099643
 !i10b 1

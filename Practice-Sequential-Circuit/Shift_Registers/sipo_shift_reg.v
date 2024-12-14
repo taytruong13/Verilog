@@ -7,18 +7,18 @@ module sipo_shift_reg(
 );
 	reg [`D_SIZE-1:0] shift_reg;
 	genvar g;
-always @(posedge clk or posedge rst) begin
-	if(rst) begin
-		shift_reg <= 'b0;
-	end else begin
-		shift_reg[0] <= serial_in;
-		generate
-			for(g=1;g<`D_SIZE;g=g+1) begin
-				shift_reg[g] <= shift_reg[g-1];
-			end
-		endgenerate
+	// Generate register instance
+	always @(posedge clk or posedge rst) begin
+		if(rst) shift_reg <= 'b0;
+		else shift_reg[0] <= serial_in;
 	end
-end
-
-assign parallel_out = shift_reg;
-endmodule
+	
+	generate 
+		for(g=1;g<`D_SIZE;g=g+1) begin : reg_inst
+			always @(posedge clk or posedge rst) begin 
+				if(~rst) shift_reg[g] <= shift_reg[g-1];
+			end
+		end
+	endgenerate
+	assign parallel_out = shift_reg;
+endmodule 
