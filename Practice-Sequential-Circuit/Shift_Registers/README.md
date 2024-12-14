@@ -1,9 +1,11 @@
 ### Contents
 - [SISO Shift Register](#siso)
 - [SIPO Shift Register Free SIZE](#sipo)
+- [PISO Shift Register Free SIZE](#piso)
+- [Bidirectioanl Shift Register](#bidir)
 
 <a name="siso"></a>
-# Serial In Serial Out (SISO) Shift Register
+# Serial In Serial Out (SISO) Shift Register 4bit
 ## The module
 ```
 // Serial in Serial Out (SISO) Shirt Register 
@@ -135,3 +137,169 @@ endmodule
 ```
 ## Simulation on ModelSim 
 <img src=https://i.imgur.com/UpZJGUj.png>
+
+<a name="piso"></a>
+# Parallel In Serial Out (PISO) Shift Register
+Like SIPO module I have presented above, in the module of PISO (parallel in and serial out) here, you can also change the size of the module with the number of ``` `define D_SIZE ```. 
+## PISO free size module with `generate` function
+```
+// Parallel In Serial Out PISO shift register
+`define D_SIZE 4
+module piso_shift_reg(
+	input clk, rst, enIn,
+	input [`D_SIZE-1:0] parallel_in,
+	output serial_out
+);
+	reg [`D_SIZE-1:0] shift_reg;
+	genvar g;
+
+always @(posedge clk or posedge rst) begin // asynchronous reset
+	if(rst) shift_reg <= 'b0;
+	else if(enIn) shift_reg <= parallel_in;
+	else shift_reg[`D_SIZE-1] <= 1'b0; //shift from left to right
+end
+
+//generate other shift_reg
+generate
+	for(g=`D_SIZE-2; g>=0; g=g-1) begin : reg_inst
+	   always @(posedge clk or posedge rst) begin
+		if(~rst&~enIn) shift_reg[g] <= shift_reg[g+1];
+	   end
+	end
+endgenerate
+
+assign serial_out = shift_reg[0];
+endmodule 
+```
+## Testbench for PISO shift register
+```
+`timescale 1ns/1ps
+`define D_SIZE 4
+module tb_piso_shift_reg();
+	reg clk, rst, enIn;
+	reg [`D_SIZE-1:0] parallel_in;
+	wire serial_out;
+
+	piso_shift_reg dut(.clk(clk),.rst(rst),.enIn(enIn),.parallel_in(parallel_in),.serial_out(serial_out));
+// Generate clk
+always #5 clk = ~clk;
+
+initial begin
+	$display(" ** %0d Parallel In Serial Out ** ",`D_SIZE);
+	$monitor("At %06t: Parallel = %b, enIn = %b, serial_out = %b", $time, parallel_in, enIn, serial_out);
+	clk = 0;
+	rst = 0; enIn = 0;
+	#10 rst = 1;
+	#10 rst = 0; parallel_in = $urandom & ((1<<`D_SIZE)-1);
+	#10 enIn = 1;
+	#10 enIn = 0; parallel_in = $urandom & ((1<<`D_SIZE)-1);
+	#50 enIn = 1;
+	#10 enIn = 0;
+	#50 $stop;
+end
+endmodule 
+```
+## Simulation on ModelSim
+<img src=https://i.imgur.com/tkodkxs.png>
+
+<a name="pipo"></a>
+# Parallel In Parallel Out (PIPO) Register
+## The module
+```
+//parallel in parallel out shift register
+`define D_SIZE 4
+module pipo_shift_reg(
+	input clk,
+	input [`D_SIZE-1:0] din,
+	output reg [`D_SIZE-1:0] dout
+	);
+
+always @(posedge clk) begin
+	dout = din;
+end
+endmodule
+```
+## Testbench for PIPO
+```
+`timescale 1ns/1ps
+`define D_SIZE 4
+module tb_pipo_shift_reg();
+	reg clk;
+	reg [`D_SIZE-1:0] din;
+	wire [`D_SIZE-1:0] dout;
+	
+	pipo_shift_reg dut(.clk(clk),.din(din),.dout(dout));
+	
+always #5 clk = ~clk;
+initial begin
+	$monitor("Input = %b, Output = %b", din, dout);
+	clk = 0;
+	#10 din = $urandom & ((1<<`D_SIZE)-1); 
+	#10 din = $urandom & ((1<<`D_SIZE)-1); 
+	#10 din = $urandom & ((1<<`D_SIZE)-1); 
+	#10 din = $urandom & ((1<<`D_SIZE)-1); 
+	#10 din = $urandom & ((1<<`D_SIZE)-1); 
+	#30 $stop;
+end
+endmodule
+```
+## Simulation on ModelSim
+<img src=https://i.imgur.com/UthOgFa.png>
+
+<a name="bidir"></a>
+# Bidirectional Shift Register
+## The Module 
+```
+//Bidirectional Shift Register
+`define D_SIZE 4
+module  bidir_shift_reg(
+	input clk, in, en, dir, rst,
+	output reg [`D_SIZE-1:0] out
+);
+
+always @(posedge clk or posedge rst) begin
+	if(rst) out <= 'b0;
+	else if(en) begin
+		case (dir)
+			1'b0 : out <= {out[`D_SIZE-2:0], in}; //shift to left 
+			1'b1 : out <= {in, out[`D_SIZE-1:1]}; //shift to right
+		endcase
+	end else out <= out;
+end
+endmodule
+```
+## Testbench for Bidirectional shift register
+```
+`timescale 1ns/1ps
+`define D_SIZE 4
+module tb_bidir_shift_reg();
+	reg clk, in, en, dir, rst;
+	wire [`D_SIZE-1:0] out;
+	
+	bidir_shift_reg dut(.clk(clk),.in(in),.en(en),.dir(dir),.rst(rst),.out(out));
+//clock generate
+always #5 clk = ~clk;
+initial begin
+	$monitor("in=%b en=%b dir=%b rst=%b out=%b", in, en, dir, rst, out);
+	clk = 0;
+	rst = 0;
+	en = 0;
+	dir = 0;
+	in = 0;
+	#5;
+	rst = 1;
+	#10 rst = 0; en = 1;
+	repeat (8) begin
+		#10 in = $random;
+	end
+	
+	dir = 1;
+	repeat (8) begin
+		#10 in = $random;
+	end
+	#20 $stop;
+end 
+endmodule
+```
+## Simulation on ModelSim
+<img src=https://i.imgur.com/vf40Wgb.png>

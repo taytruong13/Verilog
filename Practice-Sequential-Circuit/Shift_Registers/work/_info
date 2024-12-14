@@ -9,20 +9,86 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/Github/Verilog/verilog/Practice-Sequential-Circuit/Shift_Registers
+vbidir_shift_reg
+!s110 1734167192
+!i10b 1
+!s100 4[?md^a2aSjiW6f4@`B4l3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^0WKk:0Bh_IYl8bOfc7[j3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734167186
+8bidir_shift_reg.v
+Fbidir_shift_reg.v
+!i122 18
+L0 3 15
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1734167192.000000
+!s107 bidir_shift_reg.v|
+!s90 -reportprogress|300|bidir_shift_reg.v|
+!i113 1
+Z4 tCvgOpt 0
+vpipo_shift_reg
+!s110 1734164862
+!i10b 1
+!s100 >n^XJcOdA5fi1CZnYDehh1
+R1
+IIIzllJ:l9d_i;QzDmIeYB1
+R2
+R0
+w1734164858
+8pipo_shift_reg.v
+Fpipo_shift_reg.v
+!i122 11
+L0 3 10
+R3
+r1
+!s85 0
+31
+!s108 1734164861.000000
+!s107 pipo_shift_reg.v|
+!s90 -reportprogress|300|pipo_shift_reg.v|
+!i113 1
+R4
+vpiso_shift_reg
+!s110 1734162621
+!i10b 1
+!s100 D1o^]5Pj>_>SVYgn5ZG^d2
+R1
+ISZlS8;VZL;[0OY=jTgZ<33
+R2
+R0
+w1734162597
+8piso_shift_reg.v
+Fpiso_shift_reg.v
+!i122 9
+L0 3 25
+R3
+r1
+!s85 0
+31
+!s108 1734162620.000000
+!s107 piso_shift_reg.v|
+!s90 -reportprogress|300|piso_shift_reg.v|
+!i113 1
+R4
 vsipo_shift_reg
 !s110 1734151165
 !i10b 1
 !s100 E<c59L^SNA`lMSl9R93h?1
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R1
 I4Zn[RNe8@^V8YCXhcJfjn2
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+R2
 R0
 w1734151151
 8sipo_shift_reg.v
 Fsipo_shift_reg.v
 !i122 3
 L0 4 21
-Z3 OV;L;2020.1;71
+R3
 r1
 !s85 0
 31
@@ -30,7 +96,7 @@ r1
 !s107 sipo_shift_reg.v|
 !s90 -reportprogress|300|sipo_shift_reg.v|
 !i113 1
-Z4 tCvgOpt 0
+R4
 vsiso_shift_reg
 !s110 1734099638
 !i10b 1
@@ -51,6 +117,72 @@ r1
 !s108 1734099638.000000
 !s107 siso_shift_reg.v|
 !s90 -reportprogress|300|siso_shift_reg.v|
+!i113 1
+R4
+vtb_bidir_shift_reg
+!s110 1734167262
+!i10b 1
+!s100 PZX5b>boa:?hG69f9@6IG0
+R1
+IRPlZDkcR@ULHUWQUEBF5<1
+R2
+R0
+w1734167246
+8tb_bidir_shift_reg.v
+Ftb_bidir_shift_reg.v
+!i122 19
+L0 3 28
+R3
+r1
+!s85 0
+31
+!s108 1734167261.000000
+!s107 tb_bidir_shift_reg.v|
+!s90 -reportprogress|300|tb_bidir_shift_reg.v|
+!i113 1
+R4
+vtb_pipo_shift_reg
+!s110 1734164981
+!i10b 1
+!s100 VSi]iDj6a[?L8iZ^?64zB2
+R1
+IbXPLIe0>Kb0?k5nSK@Odh2
+R2
+R0
+w1734164968
+8tb_pipo_shift_reg.v
+Ftb_pipo_shift_reg.v
+!i122 13
+L0 3 19
+R3
+r1
+!s85 0
+31
+!s108 1734164981.000000
+!s107 tb_pipo_shift_reg.v|
+!s90 -reportprogress|300|tb_pipo_shift_reg.v|
+!i113 1
+R4
+vtb_piso_shift_reg
+!s110 1734162625
+!i10b 1
+!s100 WEJ@^=9]?m^]Oka:C:Q4_0
+R1
+IA>:0ekJ0I^Ye_>e_h5NN_2
+R2
+R0
+w1734162592
+8tb_piso_shift_reg.v
+Ftb_piso_shift_reg.v
+!i122 10
+L0 3 23
+R3
+r1
+!s85 0
+31
+!s108 1734162625.000000
+!s107 tb_piso_shift_reg.v|
+!s90 -reportprogress|300|tb_piso_shift_reg.v|
 !i113 1
 R4
 vtb_sipo_shift_reg
