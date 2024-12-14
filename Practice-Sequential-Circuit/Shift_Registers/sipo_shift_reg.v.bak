@@ -3,7 +3,7 @@
 `define D_SIZE 4
 module sipo_shift_reg(
 	input clk, rst, serial_in,
-	output [`D_SIZE-1:0] parallel_out
+	output reg [`D_SIZE-1:0] parallel_out
 );
 	reg [`D_SIZE-1:0] shift_reg;
 	genvar g;
@@ -20,5 +20,5 @@ module sipo_shift_reg(
 			end
 		end
 	endgenerate
-	assign parallel_out = shift_reg;
+	parallel_out <= shift_reg;
 endmodule 
