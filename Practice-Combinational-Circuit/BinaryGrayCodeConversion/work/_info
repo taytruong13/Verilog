@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice/BinaryGrayCodeConversion
+vbinary_to_gray
+!s110 1733929900
+!i10b 1
+!s100 L]iP0TKAC0zZNo2GkV3JA1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXcOJCTiY9D>ijT;6]03:Z2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1733927031
+8binary_to_gray.v
+Fbinary_to_gray.v
+!i122 0
+L0 1 12
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1733929900.000000
+!s107 binary_to_gray.v|
+!s90 -reportprogress|300|binary_to_gray.v|
+!i113 1
+Z4 tCvgOpt 0
+vtb_binary_to_gray
+!s110 1733930121
+!i10b 1
+!s100 e4c[6l8UzIRGQA<Ji]M2I3
+R1
+IAeYmXzTiVbDlH7S==l3Rj1
+R2
+R0
+w1733930114
+8tb_binary_to_gray.v
+Ftb_binary_to_gray.v
+!i122 2
+L0 3 21
+R3
+r1
+!s85 0
+31
+!s108 1733930121.000000
+!s107 tb_binary_to_gray.v|
+!s90 -reportprogress|300|tb_binary_to_gray.v|
+!i113 1
+R4

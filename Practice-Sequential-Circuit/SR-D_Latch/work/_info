@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice-Sequential-Circuit/SR-D_Latch
+vd_latch
+!s110 1734075934
+!i10b 1
+!s100 K9>N7b`e7GSEkB8X5jLRb0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IE?Qca13;R3A^[:TgIf_J?2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734075417
+8D_latch.v
+FD_latch.v
+!i122 5
+L0 1 11
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1734075934.000000
+!s107 D_latch.v|
+!s90 -reportprogress|300|D_latch.v|
+!i113 1
+Z4 tCvgOpt 0
+vSR_latch
+!s110 1734064952
+!i10b 1
+!s100 26]X_[:n7;^DjQDmUhSmR2
+R1
+Idk4bcGFbT=P5@]:N>zRlf1
+R2
+R0
+w1734063314
+8sr_latch.v
+Fsr_latch.v
+!i122 0
+L0 1 14
+R3
+r1
+!s85 0
+31
+!s108 1734064952.000000
+!s107 sr_latch.v|
+!s90 -reportprogress|300|sr_latch.v|
+!i113 1
+R4
+n@s@r_latch
+vtb_D_latch
+!s110 1734075976
+!i10b 1
+!s100 VN^F3goBdLH?LDSLhWYmT0
+R1
+I[[KLPIY]7`W=>9:ngM3IM0
+R2
+R0
+w1734075969
+8tb_d_latch.v
+Ftb_d_latch.v
+!i122 7
+L0 2 17
+R3
+r1
+!s85 0
+31
+!s108 1734075976.000000
+!s107 tb_d_latch.v|
+!s90 -reportprogress|300|tb_d_latch.v|
+!i113 1
+R4
+ntb_@d_latch
+vtb_SR_latch
+!s110 1734073281
+!i10b 1
+!s100 8fM6`[_@hXXL:4JhLDho52
+R1
+I83PfCK?@?aMl>SWeZcdIQ3
+R2
+R0
+w1734073271
+Z5 8tb_SR_latch.v
+Z6 Ftb_SR_latch.v
+!i122 4
+L0 2 15
+R3
+r1
+!s85 0
+31
+!s108 1734073281.000000
+Z7 !s107 tb_SR_latch.v|
+Z8 !s90 -reportprogress|300|tb_SR_latch.v|
+!i113 1
+R4
+ntb_@s@r_latch
+Xtb_SR_latch_v_unit
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1734065031
+VPMD5DJMo]YM1z=gGndG1>0
+r1
+!s85 0
+!i10b 1
+!s100 83n1Qb^?E`GV;;=DHUMbe0
+IPMD5DJMo]YM1z=gGndG1>0
+!i103 1
+S1
+R0
+w1734064939
+R5
+R6
+!i122 2
+L0 1 0
+R3
+31
+!s108 1734065031.000000
+R7
+R8
+!i113 1
+R4
+ntb_@s@r_latch_v_unit
