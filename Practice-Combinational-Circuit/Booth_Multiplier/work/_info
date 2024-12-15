@@ -1,0 +1,123 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice-Combinational-Circuit/Booth_Multiplier
+vAdder
+Z1 !s110 1734266665
+!i10b 1
+!s100 CoWz3UXbQc0KYXh1cASJ^0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3@8:OF9Ff6WY4YG`nLJVh0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1734266660
+Z5 8booth_multi.v
+Z6 Fbooth_multi.v
+!i122 13
+L0 64 6
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1734266664.000000
+Z9 !s107 booth_multi.v|
+Z10 !s90 -reportprogress|300|booth_multi.v|
+!i113 1
+Z11 tCvgOpt 0
+n@adder
+vbooth_multi
+R1
+!i10b 1
+!s100 YB2`E]A@=3Z730^g7G_eL1
+R2
+IT>J:RaXjS[4@aAjaB2O_70
+R3
+R0
+R4
+R5
+R6
+!i122 13
+L0 3 30
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vbooth_unit
+R1
+!i10b 1
+!s100 SS_QPoZlgQ?:VV<58JD<k3
+R2
+IV;Rcm>Z@Nc1l[QP;;jCJX2
+R3
+R0
+R4
+R5
+R6
+!i122 13
+L0 35 27
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vSubtractor
+R1
+!i10b 1
+!s100 X8SDjbRaUDlGW<8D^G5Yd2
+R2
+Ib>A;8j^TkLXE2LdK?4BMB0
+R3
+R0
+R4
+R5
+R6
+!i122 13
+L0 72 6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+n@subtractor
+vtb_booth_multi
+!s110 1734269189
+!i10b 1
+!s100 >CE4kXLF9^HWI6hPCh>Ia3
+R2
+IfP>>XnYO?@65BAm;KbH2;3
+R3
+R0
+w1734269170
+8tb_booth_multi.v
+Ftb_booth_multi.v
+!i122 17
+L0 3 15
+R7
+r1
+!s85 0
+31
+!s108 1734269189.000000
+!s107 tb_booth_multi.v|
+!s90 -reportprogress|300|tb_booth_multi.v|
+!i113 1
+R11
