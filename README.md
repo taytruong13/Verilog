@@ -30,7 +30,9 @@ This repository is the clearest demonstration of my commitment, learning process
 I am eager to apply what I have learned and further develop my skills in a professional working environment.
 
 If you are interested in learning more about me or discussing potential career opportunities, please don’t hesitate to reach out:
+
 📧 Email: taytruong13@gmail.com
+
 🌐 LinkedIn: linkedin.com/in/taytruong13
 
 
