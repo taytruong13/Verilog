@@ -65,8 +65,6 @@ endmodule
 4-bit RAM is a memory unit tht can store 4 bits of data simultaneously. This means it can represent 16 different values (from `4'b0000` to `4'b1111` in binary).
 Structurally, a 4-bit RAM cell is typically composed of 4 individual 1-bit RAM Cells. These cells operate independently but are controlled by the same clock and address signals. 
 
-A 4-Bit RAM module is a digital memory component capable of storing and retrieving 4 bits of binary data. It typically has 16 memory locations, each capable of holding a 4-bit binary value. It supports read and write operations controlled by address selection and write/read enable signals, making it suitable for various applications requiring moderate storage capacity.
-
 ## The module in Verilog code
 ```
 
