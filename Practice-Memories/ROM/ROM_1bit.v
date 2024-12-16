@@ -1,6 +1,6 @@
 module ROM_1bit(
 	input wire [1:0] address,
-	output wire data
+	output reg data
 );
 	parameter DEPTH = 4; // eg. ROM has 4 memory cells
 	// Array to store data

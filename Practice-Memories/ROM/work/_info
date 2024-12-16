@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice-Memories/ROM
+vROM_1bit
+!s110 1734335071
+!i10b 1
+!s100 g@<_jgTF;UCcS^gV;=Dm]3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]GXKWlLB<[1E1@Ggkac9z0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734335065
+8ROM_1bit.v
+FROM_1bit.v
+!i122 0
+L0 1 21
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1734335070.000000
+!s107 ROM_1bit.v|
+!s90 -reportprogress|300|ROM_1bit.v|
+!i113 1
+Z4 tCvgOpt 0
+n@r@o@m_1bit
+vtb_ROM_1bit
+!s110 1734335075
+!i10b 1
+!s100 WWG7]n^:8:f;EcMj;V@i]1
+R1
+In]CE3Ri;6L@U0dl2_z][a2
+R2
+R0
+w1734334970
+8tb_ROM_1bit.v
+Ftb_ROM_1bit.v
+!i122 1
+L0 2 20
+R3
+r1
+!s85 0
+31
+!s108 1734335075.000000
+!s107 tb_ROM_1bit.v|
+!s90 -reportprogress|300|tb_ROM_1bit.v|
+!i113 1
+R4
+ntb_@r@o@m_1bit
