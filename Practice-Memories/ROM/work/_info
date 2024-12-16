@@ -55,6 +55,29 @@ r1
 !i113 1
 R4
 n@r@o@m_4bit
+vROM_8bit
+!s110 1734337380
+!i10b 1
+!s100 TC2>=@64=V9HB@K[m>oEa3
+R1
+Ia0_D>]De6]W7`fk:KoIRn3
+R2
+R0
+w1734337261
+8ROM_8bit.v
+FROM_8bit.v
+!i122 5
+L0 1 28
+R3
+r1
+!s85 0
+31
+!s108 1734337380.000000
+!s107 ROM_8bit.v|
+!s90 -reportprogress|300|ROM_8bit.v|
+!i113 1
+R4
+n@r@o@m_8bit
 vtb_ROM_1bit
 !s110 1734335075
 !i10b 1
@@ -101,3 +124,26 @@ r1
 !i113 1
 R4
 ntb_@r@o@m_4bit
+vtb_ROM_8bit
+!s110 1734337639
+!i10b 1
+!s100 oV18EMmeg2VOXY31PmkjV2
+R1
+IhVY^;MA?kZNa4amhE:[Nm2
+R2
+R0
+w1734337631
+8tb_ROM_8bit.v
+Ftb_ROM_8bit.v
+!i122 7
+L0 2 14
+R3
+r1
+!s85 0
+31
+!s108 1734337639.000000
+!s107 tb_ROM_8bit.v|
+!s90 -reportprogress|300|tb_ROM_8bit.v|
+!i113 1
+R4
+ntb_@r@o@m_8bit
