@@ -2,12 +2,13 @@
 - [1-bit RAM Cell](#1bitram)
 - [4-bit RAM](#4bitram)
 - [8-bit RAM](#8bitram)
+
 =================================
 
 <a name="1bitram"></a>
 # 1-bit RAM Cell
 
-A 1-bit Ram cell is the fundamental building block of random access memory (RAM). It can store one bit of data, meaning either a 0 or a 1. Essentially, a 1-bit RAM cell acts like a tiny electronics switch, which can be turned on (1) or off (0). To read or write to this cell, electrical signals are used to control the transistors within the cell.
+A 1-bit RAM cell is the fundamental building block of random access memory (RAM). It can store one bit of data, meaning either a 0 or a 1. Essentially, a 1-bit RAM cell acts like a tiny electronic switch, which can be turned on (1) or off (0). To read or write to this cell, electrical signals are used to control the transistors within the cell.
 The code below shows that it supports read and write operations controlled by address selection and write/read enable signals, making it suitable for various applications requiring moderate storage capacity. 
 
 ## The module in Verilog code
