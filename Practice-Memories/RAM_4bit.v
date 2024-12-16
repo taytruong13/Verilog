@@ -1,4 +1,4 @@
-module RAM_3bit(
+module RAM_4bit(
 	input wire [3:0] address,
 	input wire write_en,
 	input wire [3:0] write_data,

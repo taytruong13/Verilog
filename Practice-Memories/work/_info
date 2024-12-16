@@ -9,20 +9,43 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/Github/Verilog/verilog/Practice-Memories
+vRAM_4bit
+!s110 1734313604
+!i10b 1
+!s100 f197jMkObGdgiLV<H<Xdh1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVoiQ5a>gnEZZA0Kk=Wm:;3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734313587
+Z3 8RAM_4bit.v
+Z4 FRAM_4bit.v
+!i122 7
+Z5 L0 1 16
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1734313604.000000
+Z7 !s107 RAM_4bit.v|
+Z8 !s90 -reportprogress|300|RAM_4bit.v|
+!i113 1
+Z9 tCvgOpt 0
+n@r@a@m_4bit
 vRAM_Cell
 !s110 1734276772
 !i10b 1
 !s100 6zVXeY_@PnUi9>E01;1[02
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R1
 I6W0k6SMZEPDADR1lz^TQ90
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+R2
 R0
 w1734276269
 8RAM_cell.v
 FRAM_cell.v
 !i122 0
 L0 2 12
-Z3 OV;L;2020.1;71
+R6
 r1
 !s85 0
 31
@@ -30,8 +53,31 @@ r1
 !s107 RAM_cell.v|
 !s90 -reportprogress|300|RAM_cell.v|
 !i113 1
-Z4 tCvgOpt 0
+R9
 n@r@a@m_@cell
+vtb_RAM_4bit
+!s110 1734313542
+!i10b 1
+!s100 `3O9NKbN_J8<h7?<7iS;;0
+R1
+IGkXJ[TaGAZZf<V[6@Gl^h3
+R2
+R0
+w1734313537
+8tb_RAM_4bit.v
+Ftb_RAM_4bit.v
+!i122 6
+L0 2 37
+R6
+r1
+!s85 0
+31
+!s108 1734313542.000000
+!s107 tb_RAM_4bit.v|
+!s90 -reportprogress|300|tb_RAM_4bit.v|
+!i113 1
+R9
+ntb_@r@a@m_4bit
 vtb_RAM_cell
 !s110 1734276913
 !i10b 1
@@ -45,7 +91,7 @@ w1734276900
 Ftb_RAM_cell.v
 !i122 4
 L0 2 26
-R3
+R6
 r1
 !s85 0
 31
@@ -53,5 +99,5 @@ r1
 !s107 tb_RAM_cell.v|
 !s90 -reportprogress|300|tb_RAM_cell.v|
 !i113 1
-R4
+R9
 ntb_@r@a@m_cell
