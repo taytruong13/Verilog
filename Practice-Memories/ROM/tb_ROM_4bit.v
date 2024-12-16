@@ -6,7 +6,7 @@ module tb_ROM_4bit ();
 	ROM_4bit dut(.address(address),.data(data));
 	
 initial begin
-	$monitor("Address = $b, data = %b", address, data);
+	$monitor("Address = %b, data = %b", address, data);
 	
 	address = 2'b00;
 	#10;

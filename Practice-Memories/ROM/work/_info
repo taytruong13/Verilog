@@ -32,6 +32,29 @@ r1
 !i113 1
 Z4 tCvgOpt 0
 n@r@o@m_1bit
+vROM_4bit
+!s110 1734336271
+!i10b 1
+!s100 b7Ica^7i::K5?[HS?DKo_2
+R1
+IAe05OAZJVDS=5ed6fL@oQ1
+R2
+R0
+w1734336266
+8ROM_4bit.v
+FROM_4bit.v
+!i122 2
+L0 1 16
+R3
+r1
+!s85 0
+31
+!s108 1734336271.000000
+!s107 ROM_4bit.v|
+!s90 -reportprogress|300|ROM_4bit.v|
+!i113 1
+R4
+n@r@o@m_4bit
 vtb_ROM_1bit
 !s110 1734335075
 !i10b 1
@@ -44,7 +67,7 @@ w1734334970
 8tb_ROM_1bit.v
 Ftb_ROM_1bit.v
 !i122 1
-L0 2 20
+Z5 L0 2 20
 R3
 r1
 !s85 0
@@ -55,3 +78,26 @@ r1
 !i113 1
 R4
 ntb_@r@o@m_1bit
+vtb_ROM_4bit
+!s110 1734336383
+!i10b 1
+!s100 el=UcFDmfcYi4_ciezAMU3
+R1
+IdKF32B;93ZSG<c8C>f6bB2
+R2
+R0
+w1734336339
+8tb_ROM_4bit.v
+Ftb_ROM_4bit.v
+!i122 4
+R5
+R3
+r1
+!s85 0
+31
+!s108 1734336383.000000
+!s107 tb_ROM_4bit.v|
+!s90 -reportprogress|300|tb_ROM_4bit.v|
+!i113 1
+R4
+ntb_@r@o@m_4bit
