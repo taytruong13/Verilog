@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 dD:/Github/Verilog/verilog/Practice-FSM/FSM_Moore_detector_1101
 vFSM_Moore_detector
-!s110 1734447488
+!s110 1734513391
 !i10b 1
-!s100 U>IXFG7B3Gg2Ho5X;dJ]C3
+!s100 4V^g5g4WLE=<eXgFHgc]c0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I:kCUhC69[mSP85:NBZVP40
+IA2DA31b9ceF;TjQ3K7ZRF0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1734446784
+w1734513378
 8FSM_Moore_detector.v
 FFSM_Moore_detector.v
-!i122 0
-L0 1 69
+!i122 6
+L0 1 71
 Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1734447488.000000
+!s108 1734513391.000000
 !s107 FSM_Moore_detector.v|
 !s90 -reportprogress|300|FSM_Moore_detector.v|
 !i113 1
@@ -55,23 +55,23 @@ r1
 !i113 1
 R4
 vtb_FSM_Moore_detector
-!s110 1734497902
+!s110 1734512936
 !i10b 1
-!s100 Rl1d:4E`hnKbK_5F71z@21
+!s100 GkV?OdN8o?[k6Zhl9N00f1
 R1
-I806b3AmAFeP7C2A7P_]YS0
+Ib<d0IW5GAUR]fm4z0P;Y=2
 R2
 R0
-w1734497533
+w1734498336
 8tb_FSM_Moore_detector.v
 Ftb_FSM_Moore_detector.v
-!i122 3
+!i122 4
 L0 2 35
 R3
 r1
 !s85 0
 31
-!s108 1734497902.000000
+!s108 1734512936.000000
 !s107 tb_FSM_Moore_detector.v|
 !s90 -reportprogress|300|tb_FSM_Moore_detector.v|
 !i113 1

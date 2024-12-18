@@ -25,37 +25,39 @@ end
 // Combinational logic for state transitions and output 
 always @(*) begin
 	// Default values
-	next_state = current_state;
-	detected  = 1'b0;
+	// next_state = current_state;
+	// detected  = 1'b0;
 	
 	case (current_state)
-		IDLE: begin
+		IDLE: begin // 000
+			detected = 1'b0;
 			if(in_bit)  // in_bit 1
 				next_state = S1; // Move to state S1 if bit 1 is received 
 		end
 		
-		S1: begin
+		S1: begin  // 001
+			detected = 1'b0;
 			if(in_bit)  // in_bit 1
 				next_state = S11; // Move to S11 if bit 1 is received 
 			else
 				next_state = IDLE; // Return to IDLE if bit 0
 		end
 		
-		S11: begin 
+		S11: begin  // 010
 			if(~in_bit) // in_bit 0
 				next_state = S110; // Move to S110 if bit 0 is received 
 			else
 				next_state = S11;  // Stay in S11 if in_bit 0
 		end 
 		
-		S110: begin
+		S110: begin // 011
 			if(in_bit)
 				next_state = DETECTED; // Move to DETECTED if bit 1 is received
 			else 
 				next_state = IDLE; // Return to IDLE if bit 0;
 		end 
 		
-		DETECTED: begin 
+		DETECTED: begin   // 100
 			detected = 1'b1; // Output is 1 when sequence 1101 is detected 
 			if(in_bit)
 				next_state = S1; // Continue to detect next sequence 

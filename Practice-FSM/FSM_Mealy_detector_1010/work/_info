@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice-FSM/FSM_Mealy_detector_1010
+vFSM_Mealy_detector
+!s110 1734536153
+!i10b 1
+!s100 m`[z9Oe[WOBi3mZYM@0;P2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IA0Qa@SVih<8b4aozL6>`R0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734535418
+8FSM_Mealy_detector.v
+FFSM_Mealy_detector.v
+!i122 0
+L0 1 63
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1734536153.000000
+!s107 FSM_Mealy_detector.v|
+!s90 -reportprogress|300|FSM_Mealy_detector.v|
+!i113 1
+Z4 tCvgOpt 0
+n@f@s@m_@mealy_detector
+vtb_FSM_Mealy_detector
+!s110 1734536156
+!i10b 1
+!s100 VW;`1noG`9GIWM:A<b1WJ2
+R1
+I6?9ACa;1N<i[0<;[7=QGo2
+R2
+R0
+w1734536146
+8tb_FSM_Mealy_detector.v
+Ftb_FSM_Mealy_detector.v
+!i122 1
+L0 4 22
+R3
+r1
+!s85 0
+31
+!s108 1734536156.000000
+!s107 tb_FSM_Mealy_detector.v|
+!s90 -reportprogress|300|tb_FSM_Mealy_detector.v|
+!i113 1
+R4
+ntb_@f@s@m_@mealy_detector
