@@ -3,6 +3,7 @@ In Moore Machine, output only depens on the present state. It is dependent of cu
 
 This program uses a Finite State Machine (FSM) to detect the desired sequence.
 The states represent the progress of detecting each bit of the sequence 1101. When the sequence 1101 is detected, the detected output is activated.
+I also write code for Shift register to detect 1101 sequence (in the below), you can use the same testbench to check how it work and how FSM is better.
 |State|Description|
 |:---:|:---------:|
 |IDLE|Initial state, waiting for bit 1|
@@ -83,6 +84,27 @@ always @(*) begin
 end
 endmodule 
 ```
+## Module in Verilog for Shift Register detector 1101
+```
+// if you want to test with Shift Register, use this code below
+module shift_detector_1101 (
+	input clk, rst, in_bit,
+	output reg detected
+);
+	reg [3:0] sequence;
+always @(posedge clk or posedge rst) begin
+	if(rst)begin
+		sequence <= 4'b0000;
+		detected <= 1'b0;
+	end else begin
+		sequence = sequence >> 1;
+		sequence[3] = in_bit;
+		detected = (sequence == 4'b1101) ? 1'b1 : 1'b0;
+	end
+end 
+endmodule 
+```
+_(the simulation showed below)_
 
 ## Testbench for 1101 Detector 
 In the testbench here, I use the sequence 1101101101 to demonstrate that we should use a Finite State Machine to detect separately 1101 sequences. If we use the Shift register and AND gates component, the circuit will detect three 1101s in the sequence. When using FSM, only two times 1101 appear in the 1101101101. 
@@ -125,4 +147,7 @@ endmodule
 ```
 
 ## Simulation on ModelSim
+### FSM 1101 Detector 
 <img src=https://i.imgur.com/LZEZr7E.png>
+### Shift Register 1101 Detector
+<img src=https://i.imgur.com/mDJfZwx.png>

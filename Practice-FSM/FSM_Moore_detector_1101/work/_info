@@ -32,24 +32,46 @@ r1
 !i113 1
 Z4 tCvgOpt 0
 n@f@s@m_@moore_detector
-vtb_FSM_Moore_detector
-!s110 1734447492
+vshift_detector_1101
+!s110 1734497897
 !i10b 1
-!s100 YNnZM<@MizF`aZ=Fhk[aI0
+!s100 ^jSZJf]?:4T`abU:?CEBJ2
 R1
-IO@cmlTY?PBc6E:8QRD2Nk1
+ILgcTWRM1GlzLPn8n2B^<d2
 R2
 R0
-w1734447443
-8tb_FSM_Moore_detector.v
-Ftb_FSM_Moore_detector.v
-!i122 1
-L0 2 34
+w1734497891
+8shift_detector_1101.v
+Fshift_detector_1101.v
+!i122 2
+L0 2 16
 R3
 r1
 !s85 0
 31
-!s108 1734447492.000000
+!s108 1734497897.000000
+!s107 shift_detector_1101.v|
+!s90 -reportprogress|300|shift_detector_1101.v|
+!i113 1
+R4
+vtb_FSM_Moore_detector
+!s110 1734497902
+!i10b 1
+!s100 Rl1d:4E`hnKbK_5F71z@21
+R1
+I806b3AmAFeP7C2A7P_]YS0
+R2
+R0
+w1734497533
+8tb_FSM_Moore_detector.v
+Ftb_FSM_Moore_detector.v
+!i122 3
+L0 2 35
+R3
+r1
+!s85 0
+31
+!s108 1734497902.000000
 !s107 tb_FSM_Moore_detector.v|
 !s90 -reportprogress|300|tb_FSM_Moore_detector.v|
 !i113 1
