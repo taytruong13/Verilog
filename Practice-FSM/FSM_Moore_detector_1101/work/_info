@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice-FSM/FSM_Moore_detector_1101
+vFSM_Moore_detector
+!s110 1734447488
+!i10b 1
+!s100 U>IXFG7B3Gg2Ho5X;dJ]C3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:kCUhC69[mSP85:NBZVP40
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734446784
+8FSM_Moore_detector.v
+FFSM_Moore_detector.v
+!i122 0
+L0 1 69
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1734447488.000000
+!s107 FSM_Moore_detector.v|
+!s90 -reportprogress|300|FSM_Moore_detector.v|
+!i113 1
+Z4 tCvgOpt 0
+n@f@s@m_@moore_detector
+vtb_FSM_Moore_detector
+!s110 1734447492
+!i10b 1
+!s100 YNnZM<@MizF`aZ=Fhk[aI0
+R1
+IO@cmlTY?PBc6E:8QRD2Nk1
+R2
+R0
+w1734447443
+8tb_FSM_Moore_detector.v
+Ftb_FSM_Moore_detector.v
+!i122 1
+L0 2 34
+R3
+r1
+!s85 0
+31
+!s108 1734447492.000000
+!s107 tb_FSM_Moore_detector.v|
+!s90 -reportprogress|300|tb_FSM_Moore_detector.v|
+!i113 1
+R4
+ntb_@f@s@m_@moore_detector
