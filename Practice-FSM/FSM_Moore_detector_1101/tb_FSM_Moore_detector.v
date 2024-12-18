@@ -5,8 +5,8 @@ module tb_FSM_Moore_detector ();
 	wire detected;
 	
 	// Instantiate the module 
-	// FSM_Moore_detector dut(.clk(clk),.rst(rst),.in_bit(in_bit),.detected(detected));
-	shift_detector_1101 dut(.clk(clk),.rst(rst),.in_bit(in_bit),.detected(detected));
+	FSM_Moore_detector dut(.clk(clk),.rst(rst),.in_bit(in_bit),.detected(detected));
+	// shift_detector_1101 dut(.clk(clk),.rst(rst),.in_bit(in_bit),.detected(detected));
 	
 	// Clock generation
 always #5 clk = ~clk;
