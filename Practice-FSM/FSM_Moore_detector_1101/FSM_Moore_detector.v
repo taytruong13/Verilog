@@ -25,7 +25,7 @@ end
 // Combinational logic for state transitions and output 
 always @(*) begin
 	// Default values
-	// next_state = current_state;
+	//next_state = current_state;
 	// detected  = 1'b0;
 	
 	case (current_state)
@@ -33,6 +33,8 @@ always @(*) begin
 			detected = 1'b0;
 			if(in_bit)  // in_bit 1
 				next_state = S1; // Move to state S1 if bit 1 is received 
+			else
+				next_state = IDLE;
 		end
 		
 		S1: begin  // 001

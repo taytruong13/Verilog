@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice-FSM/Elevator
+velevator
+!s110 1734616769
+!i10b 1
+!s100 FE9Wekb>eSc0eZ`?;?][j0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^C3Meob9ozQ9EMJn?L41b3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734616766
+8elevator.v
+Felevator.v
+!i122 1
+L0 2 67
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1734616769.000000
+!s107 elevator.v|
+!s90 -reportprogress|300|elevator.v|
+!i113 1
+Z4 tCvgOpt 0
+vtb_elevator
+!s110 1734616521
+!i10b 1
+!s100 a_8hgJcl]Zf^GE1Yz<L1]3
+R1
+IW^=lefPDM<<L9Xb]_zgMZ1
+R2
+R0
+w1734615981
+8tb_elevator.v
+Ftb_elevator.v
+!i122 0
+L0 2 23
+R3
+r1
+!s85 0
+31
+!s108 1734616521.000000
+!s107 tb_elevator.v|
+!s90 -reportprogress|300|tb_elevator.v|
+!i113 1
+R4
