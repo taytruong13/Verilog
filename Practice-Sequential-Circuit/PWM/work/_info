@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice-Sequential-Circuit/PWM
+vPWM
+!s110 1734595555
+!i10b 1
+!s100 oh4hS6do1oRLFg]`a3zB^1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@DBGz4J>L7mHD^4_O:<_L0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734595553
+8PWM.v
+FPWM.v
+!i122 0
+L0 1 17
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1734595555.000000
+!s107 PWM.v|
+!s90 -reportprogress|300|PWM.v|
+!i113 1
+Z4 tCvgOpt 0
+n@p@w@m
+vtb_PWM
+!s110 1734595582
+!i10b 1
+!s100 NjHQZPJNHTWjchOAVke^>3
+R1
+IOj>`A5^e;LH6OM_@9070m0
+R2
+R0
+w1734595572
+8tb_PWM.v
+Ftb_PWM.v
+!i122 1
+L0 2 21
+R3
+r1
+!s85 0
+31
+!s108 1734595581.000000
+!s107 tb_PWM.v|
+!s90 -reportprogress|300|tb_PWM.v|
+!i113 1
+R4
+ntb_@p@w@m
