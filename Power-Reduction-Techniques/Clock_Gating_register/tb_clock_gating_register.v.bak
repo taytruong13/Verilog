@@ -6,7 +6,7 @@ module tb_clock_gating_register();
 
     clock_gating_register dut (
         .clk(clk),
-        .rst(rst),
+        .reset(rst),
         .enable(enable),
         .data_in(data_in),
         .data_out(data_out)
