@@ -29,4 +29,16 @@ always @(posedge clk_write or posedge rst) begin
 end 
 
 always @(posedge clk_read or posedge rst) begin 
+	if (rst) begin 
+		read_ptr <= 0; 
+		fifo_empty <= 1;
+	end else if (read_en && !fifo_empty) begin
+		data_out <= fifo_mem[read_ptr];
+		read_ptr <= read_ptr + 1;
+		fifo_count <= fifo_count - 1;
+	end 
+	fifo_empty <= (fifo_count == 0);
+end
+endmodule 
+
 	
