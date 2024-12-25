@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Practice-Clock-Domain-Crossing-CDC/fifo-cdc-transfer-data
+vfifo_cdc
+!s110 1735096364
+!i10b 1
+!s100 9Ekol[EgFRDmecIN>lRKm1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKFPL3ODTgl?SB4_2E1ahl2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1735096349
+8fifo_cdc.v
+Ffifo_cdc.v
+!i122 16
+L0 2 41
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1735096364.000000
+!s107 fifo_cdc.v|
+!s90 -reportprogress|300|fifo_cdc.v|
+!i113 1
+Z4 tCvgOpt 0
+vtb_fifo_cdc
+!s110 1735095953
+!i10b 1
+!s100 bd3I]1KE7XWUe<lHn=NPF2
+R1
+Ii5hKB19abR2@2]fT9>MDN3
+R2
+R0
+w1735095923
+8tb_fifo_cdc.v
+Ftb_fifo_cdc.v
+!i122 9
+L0 2 59
+R3
+r1
+!s85 0
+31
+!s108 1735095953.000000
+!s107 tb_fifo_cdc.v|
+!s90 -reportprogress|300|tb_fifo_cdc.v|
+!i113 1
+R4

@@ -18,14 +18,14 @@ module fifo_cdc (
 	
 always @(posedge clk_write or posedge rst) begin
 	if(rst) begin
-		write_ptr <= 0;
+		write_ptr <= 1;
 		fifo_full <= 0;
 	end else if (write_en && !fifo_full) begin
 		fifo_mem[write_ptr] <= data_in;
 		write_ptr <= write_ptr + 1;
 		fifo_count <= fifo_count + 1;
 	end 
-	fifo_full <= (fifo_count == DEPTH) ? 1 : 0;
+	fifo_full <= (fifo_count == DEPTH);
 end 
 
 always @(posedge clk_read or posedge rst) begin 
@@ -37,7 +37,7 @@ always @(posedge clk_read or posedge rst) begin
 		read_ptr <= read_ptr + 1;
 		fifo_count <= fifo_count - 1;
 	end 
-	fifo_empty <= (fifo_count == 0) ? 1 : 0;
+	fifo_empty <= (fifo_count == 0);
 end
 endmodule 
 

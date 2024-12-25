@@ -31,10 +31,6 @@ module tb_fifo_cdc();
 	initial begin
 		rst = 0;
 		#5 rst = 1;
-		#15 rst = 0;
-		#15 rst = 1;
-		#15 rst = 0;
-		#20 rst = 1;
 		write_en = 0;
 		read_en = 0;
 		data_in = 0;
