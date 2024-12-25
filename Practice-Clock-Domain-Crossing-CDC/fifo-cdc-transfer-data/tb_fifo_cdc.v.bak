@@ -1,3 +1,4 @@
+// Testbench for FIFO with size of DEPTH x WIDTH = 16 x 8. 
 `timescale 1ns/1ps
 module tb_fifo_cdc();
 	reg clk_write, clk_read, rst;
@@ -6,7 +7,7 @@ module tb_fifo_cdc();
 	wire [7:0] data_out;
 	wire fifo_empty, fifo_full;
 	
-	fifo_cdc dut(
+	fifo_cdc #(DEPTH = 16, WIDTH = 8) dut(
 		.clk_write(clk_write),
 		.clk_read(clk_read),
 		.rst(rst),
@@ -18,39 +19,40 @@ module tb_fifo_cdc();
 		.fifo_full(fifo_full)
 	);
 // clock generation
-	initial begin
-		clk_write = 0;
-		forever #5 clk_write = ~clk_write; // 100 MHz clock
-	end 
+initial begin
+	clk_write = 0;
+	forever #5 clk_write = ~clk_write; // 100 MHz clock
+end 
+
+initial begin 
+	clk_read = 0;
+	forever #7 clk_read = ~clk_read; // ~71,43 MHz clock
+end
+
+initial begin
+	#5 rst = 1;
+	write_en = 0;
+	read_en = 0;
+	data_in = 'b0;
+	#10 rst = 0;
 	
-	initial begin 
-		clk_read = 0;
-		forever #7 clk_read = ~clk_read; // ~71,43 MHz clock
-	end
+	// Write data_in
+	#10 write_en = 1;
+	data_in = 8'hAA;
+	#10 data_in = 8'hBB;
+	#10 data_in = 8'hCC;
+	#10 data_in = 8'h95;
+	#10 data_in = 8'h0B;
+	#10 write_en = 0;
 	
-	initial begin
-		rst = 0;
-		#5 rst = 1;
-		write_en = 0;
-		read_en = 0;
-		data_in = 0;
-		#10 rst = 0;
-		
-		// Write data_in
-		#10 write_en = 1;
-		data_in = 8'hAA;
-		#10 data_in = 8'hBB;
-		#10 data_in = 8'hCC;
-		#10 write_en = 0;
-		
-		// read_data
-		#30 read_en = 1;
-		#20 read_en = 0;
-		
-		#50 $stop; 
-	end 
+	// read_data
+	#30 read_en = 1;
+	#70 read_en = 0;
 	
-	initial begin 
-		$monitor($time, " data_in=%h, data_out=%h, fifo_empty=%b, fifo_full=%b", data_in, data_out, fifo_empty, fifo_full);
-	end
+	#20 $stop; 
+end 
+
+initial begin 
+	$monitor($time, " data_in=%h, data_out=%h, fifo_empty=%b, fifo_full=%b", data_in, data_out, fifo_empty, fifo_full);
+end
 endmodule 
