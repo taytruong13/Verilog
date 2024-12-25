@@ -46,6 +46,9 @@ I hold a degree in *Mechatronics Engineering** and am currently building a stron
 - [Memories](https://github.com/taytruong13/verilog/tree/main/Practice-Memories)
     - [RAM](https://github.com/taytruong13/verilog/tree/main/Practice-Memories/RAM)
     - [ROM](https://github.com/taytruong13/verilog/tree/main/Practice-Memories/ROM)
+- [Clock Domain Crossing - CDC](https://github.com/taytruong13/verilog/tree/main/Practice-Clock-Domain-Crossing-CDC)
+	- [FIFO CDC transfer Data](https://github.com/taytruong13/verilog/tree/main/Practice-Clock-Domain-Crossing-CDC/fifo-cdc-transfer-data)
+	- [Single bit synchronizer](https://github.com/taytruong13/verilog/tree/main/Practice-Clock-Domain-Crossing-CDC/single_bit_synchronizer)
 
 <a name="notetorecruiters"></a>
 ## A Note to Recruiters
