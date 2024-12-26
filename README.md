@@ -8,7 +8,7 @@
 - [Future Plans](#futureplans)
 
 
-====================================
+---
 <a name="introduction"></a>
 ## Introduction
 Welcome to my Verilog repository! This is where I store the Verilog programs I've written during my journey to learn and practice as I work towards becoming an **engineer** in the **semiconductor industry**.
