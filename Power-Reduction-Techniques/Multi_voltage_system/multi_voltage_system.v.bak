@@ -4,7 +4,7 @@ module multi_voltage_system (
 	input wire [7:0] data_in,
 	output wire [7:0] data_out
 );
-	wire [7:0] high_perf_data, low_perf_data;
+	wire [7:0], high_perf_data, low_perf_data;
 	
 	high_perf_module high_perf(
 		.clk(clk),

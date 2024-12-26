@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Power-Reduction-Techniques/Low_Power_FSM
+vlow_power_fsm
+!s110 1735183225
+!i10b 1
+!s100 fZh80IlgAbLiZQ7>o9dkY0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5@P`n8`e_;7fP@?SCIiAV0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1735183221
+8low_power_fsm.v
+Flow_power_fsm.v
+!i122 2
+L0 2 23
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1735183225.000000
+!s107 low_power_fsm.v|
+!s90 -reportprogress|300|low_power_fsm.v|
+!i113 1
+Z4 tCvgOpt 0
+vtb_low_power_fsm
+!s110 1735183268
+!i10b 1
+!s100 Ne1XBEU]aJf[b2[o7i_BV2
+R1
+I_o?L5E@k:?`gcG5kemHc>3
+R2
+R0
+w1735183258
+8tb_low_power_fsm.v
+Ftb_low_power_fsm.v
+!i122 3
+L0 2 28
+R3
+r1
+!s85 0
+31
+!s108 1735183268.000000
+!s107 tb_low_power_fsm.v|
+!s90 -reportprogress|300|tb_low_power_fsm.v|
+!i113 1
+R4

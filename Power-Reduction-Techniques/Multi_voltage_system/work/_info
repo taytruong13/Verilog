@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/Verilog/verilog/Power-Reduction-Techniques/Multi_voltage_system
+vmulti_voltage_system
+!s110 1735183898
+!i10b 1
+!s100 ;:9g46kfh3bTJe@jQZ_OQ1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IaaB=1>]Sn442X94`d[<XM0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1735183894
+8multi_voltage_system.v
+Fmulti_voltage_system.v
+!i122 1
+L0 1 24
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1735183898.000000
+!s107 multi_voltage_system.v|
+!s90 -reportprogress|300|multi_voltage_system.v|
+!i113 1
+Z4 tCvgOpt 0
+vtb_multi_voltage_system
+!s110 1735183863
+!i10b 1
+!s100 `RoFDRd1FAQO3GB04W@@O2
+R1
+IFcfAFc1odKY8<5cYW0:Qz0
+R2
+R0
+w1735125771
+8tb_multi_voltage_system.v
+Ftb_multi_voltage_system.v
+!i122 0
+L0 2 30
+R3
+r1
+!s85 0
+31
+!s108 1735183863.000000
+!s107 tb_multi_voltage_system.v|
+!s90 -reportprogress|300|tb_multi_voltage_system.v|
+!i113 1
+R4

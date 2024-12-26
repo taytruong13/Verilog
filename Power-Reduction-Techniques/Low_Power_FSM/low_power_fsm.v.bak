@@ -5,9 +5,9 @@ module low_power_fsm (
 );
 
 	parameter 	S0 = 2'b00,
-			S1 = 2'b01,
-			S2 = 2'b11,// use gray code for states
-			S3 = 2'b10;
+				S1 = 2'b01,
+				S2 = 2'b11,// use gray code for states
+				S3 = 1'b10;
 always @(posedge clk or posedge rst) begin
 	if(rst) 
 		state <= S0;

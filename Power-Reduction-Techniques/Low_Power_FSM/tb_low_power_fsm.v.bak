@@ -5,7 +5,7 @@ module tb_low_power_fsm();
 
     low_power_fsm uut (
         .clk(clk),
-        .rst(rst),
+        .reset(rst),
         .enable(enable),
         .state(state)
     );
