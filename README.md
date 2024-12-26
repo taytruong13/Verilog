@@ -49,6 +49,12 @@ I hold a degree in *Mechatronics Engineering** and am currently building a stron
 - [Clock Domain Crossing - CDC](https://github.com/taytruong13/verilog/tree/main/Practice-Clock-Domain-Crossing-CDC)
 	- [FIFO CDC transfer Data](https://github.com/taytruong13/verilog/tree/main/Practice-Clock-Domain-Crossing-CDC/fifo-cdc-transfer-data)
 	- [Single bit synchronizer](https://github.com/taytruong13/verilog/tree/main/Practice-Clock-Domain-Crossing-CDC/single_bit_synchronizer)
+- [Power Reduction Techniques at RTL Level](https://github.com/taytruong13/verilog/tree/main/Power-Reduction-Techniques)
+	- [Clock Gating Register](https://github.com/taytruong13/verilog/tree/main/Power-Reduction-Techniques/Clock_Gating_register)
+ 	- [Operand Isolation Adder](https://github.com/taytruong13/verilog/tree/main/Power-Reduction-Techniques/Operand_isolation_adder)
+	- [Low Power for FSM](https://github.com/taytruong13/verilog/tree/main/Power-Reduction-Techniques/Low_Power_FSM)
+ 	- [Multi Voltage System](https://github.com/taytruong13/verilog/tree/main/Power-Reduction-Techniques/Multi_voltage_system)
+
 
 <a name="notetorecruiters"></a>
 ## A Note to Recruiters
