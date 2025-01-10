@@ -12,7 +12,7 @@
 <a name="introduction"></a>
 ## Introduction
 Welcome to my Verilog repository! This is where I store the Verilog programs I've written during my journey to learn and practice as I work towards becoming an **engineer** in the **semiconductor industry**.
-I hold a degree in *Mechatronics Engineering** and am currently building a strong foundation in **RTL Design** and **Design Verification**. Although I am at the beginning of my journey, I am putting in consistent effort to achieve my goal of becoming a professional **Chip design engineer**. This repository is a testament to my commitment and self-learning capability. 
+I hold a degree in *Mechatronics Engineering** and am currently building a strong foundation in **RTL Design** and **DFT Engineer**. Although I am at the beginning of my journey, I am putting in consistent effort to achieve my goal of becoming a professional **Chip design engineer**. This repository is a testament to my commitment and self-learning capability. 
 
 <a name="goal"></a>
 ## Goal
