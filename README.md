@@ -80,7 +80,7 @@ git clone http://github.com/taytruong13/verilog.git
 <a name="futureplans"></a>
 ## Future Plans
 1. Complete advanced RTL Design projects (e.g., Mini SoC).
-2. Begin exploring Physical Design and FPGA development. 
+2. Begin exploring FPGA development. 
 
 
 
