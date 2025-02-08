@@ -1,6 +1,6 @@
 # ELEVATOR controller
 ## The module in Verilog code
-```
+```Verilog
 // Controller for 5 floor elevator 
 module elevator(
 	input clk, rst,
@@ -68,14 +68,11 @@ always @(posedge clk or posedge rst) begin
 		floor_req_reg[floor_req] <= 1'b1; // set request for requested floor
 	end 
 end 
-endmodule
-
-		
-			
+endmodule		
 ```
 
 ## Testbench for PWM generator 
-```
+```Verilog
 `timescale 1ns/1ps
 module tb_elevator();
 	reg clk, rst;
