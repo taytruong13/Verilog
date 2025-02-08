@@ -71,7 +71,7 @@ end
 endmodule		
 ```
 
-## Testbench for PWM generator 
+## Testbench
 ```Verilog
 `timescale 1ns/1ps
 module tb_elevator();
