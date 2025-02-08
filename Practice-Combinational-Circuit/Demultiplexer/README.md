@@ -8,7 +8,7 @@
 <a name="Demux_1x2"></a>
 # 1x2 Demux
 ## The module
-```
+```Verilog
 module demux_1x2 (
 	input wire din, 
 	input wire sel, 
@@ -22,7 +22,7 @@ module demux_1x2 (
 endmodule
 ```
 ## Testbench for 1x2 Demux
-```
+```Verilog
 `timescale 1ns/1ps
 module tb_demux_1x2();
 	reg din;
@@ -54,7 +54,7 @@ endmodule
 <a name="Demux_1x4"></a>
 # 1x4 Demux
 ## The module
-```
+```Verilog
 module demux_1x4(
 	input wire din, 
 	input wire [1:0] sel,
@@ -67,7 +67,7 @@ module demux_1x4(
 endmodule
 ```
 ## Testbench for 1x4 Demux
-```
+```Verilog
 `timescale 1ns/1ps
 module tb_demux_1x4();
 	reg din;
@@ -103,7 +103,7 @@ endmodule
 <a name="Demux_1x8_generate"></a>
 # 1x8 Demux with generate function
 ## The module
-```
+```Verilog
 // 1x8 demux
 // 1x2mux|SIZE=1; 1x4mux|SIZE=2; 1x8mux|SIZE=3; 1x16mux|SIZE=4...
 module demux_1x8 #(parameter SIZE=3) (
@@ -120,7 +120,7 @@ module demux_1x8 #(parameter SIZE=3) (
 endmodule
 ```
 ## Testbench for 1x8 Demux
-```
+```Verilog
 //Testbend for Demux SIZE = 3 (1x8)
 `define D_SIZE 3
 module tb_demux_1x8();
